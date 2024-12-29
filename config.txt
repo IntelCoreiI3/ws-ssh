@@ -1,0 +1,11 @@
+GATEWAY=internship.ruangguru.com
+SSH_HOST=uks-1.optnl.com
+SSH_PORT=80
+PROXY_HOST=172.67.22.129
+PROXY_PORT=80
+USERNAME=opentunnel.net-hmmmm
+PASSWORD=1
+LOCAL_HOST=127.0.0.1
+LOCAL_PORT=1080
+RETRY_DELAY=4
+PAYLOAD=GET /cdn-cgi/trace HTTP/1.1[crlf]Host: [GATEWAY][crlf][crlf]GET-WS / HTTP/1.1[crlf]Host: [SSH_HOST][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]
